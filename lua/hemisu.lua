@@ -15,5 +15,5 @@ Color.new('violet',    '#FF0055')
 Color.new('orange',    '#ECE1C8')
 Color.new('brown',     '#503D15')
 
-Color.new('background', colors.black)
-Color.new('fg', colors.white)
+Color.new('background', '#000000')
+Color.new('fg', '#EEEEEE')
