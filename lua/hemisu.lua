@@ -1,9 +1,7 @@
-require('colorbuddy').setup()
+local Color, colors, Group, groups, styles = require("colorbuddy").setup()
 
-local Color = require('colorbuddy').Color
-
-Color.new('white', '#ffffff')
-Color.new('black', '#EEEEEE')
+Color.new('white', '#EEEEEE')
+Color.new('black', '#000000')
 
 Color.new('red',       '#63001C')
 Color.new('pink',      '#FFAFAF')
@@ -16,3 +14,6 @@ Color.new('purple',    '#538192')
 Color.new('violet',    '#FF0055')
 Color.new('orange',    '#ECE1C8')
 Color.new('brown',     '#503D15')
+
+Color.new('background', colors.black)
+Color.new('fg', colors.white)
