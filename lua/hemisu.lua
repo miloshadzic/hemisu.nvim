@@ -94,3 +94,36 @@ Group.new('TSField', g.Function, g.Function, g.Function)
 Group.new('TSProperty', g.Function, g.Function, g.Function)
 Group.new('TSAttribute', g.Function, g.Function, g.Function)
 Group.new('TSNamespace', g.Function, g.Function, g.Function)
+
+--Compe/Float
+Group.new('Pmenu', c.light_grey, c.almost_black, no)
+Group.new('NormalFloat', g.Pmenu, g.Pmenu, g.Pmenu)
+Group.new('FloatBorder', g.Pmenu, g.Pmenu, g.Pmenu)
+Group.new('CompeDocumentation', g.Pmenu, g.Pmenu, g.Pmenu)
+Group.new('CompeDocumentationBorder', g.Pmenu, g.Pmenu, g.Pmenu)
+
+Group.new('SignColumn',   c.none, c.none, no)
+
+-----------------------------
+--     LSP Highlighting    --
+-----------------------------
+Group.new('LspDiagnosticsDefaultError',           c.middle_light_pink,   c.none,  no)
+Group.new('LspDiagnosticsDefaultWarning',         c.light_tan, c.none,  no)
+-- Group.new('LspDiagnosticsDefaultInformation',     c.hue_1,   c.none,  no)
+-- Group.new('LspDiagnosticsDefaultHint',            c.hue_4,   c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextError',       c.hue_5,   c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextWarning',     c.hue_6_2, c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextInformation', c.hue_1,   c.none,  no)
+-- Group.new('LspDiagnosticsVirtualTextHint',        c.hue_4,   c.none,  no)
+-- Group.new('LspDiagnosticsUnderlineError',         c.hue_5,   c.none,  ul)
+-- Group.new('LspDiagnosticsUnderlineWarning',       c.hue_6_2, c.none,  ul)
+-- Group.new('LspDiagnosticsUnderlineInformation',   c.hue_1,   c.none,  ul)
+-- Group.new('LspDiagnosticsUnderlineHint',          c.hue_4,   c.none,  ul)
+-- Group.new('LspDiagnosticsFloatingError',          c.hue_5,   g.Pmenu, ul)
+-- Group.new('LspDiagnosticsFloatingWarning',        c.hue_6_2, g.Pmenu, ul)
+-- Group.new('LspDiagnosticsFloatingInformation',    c.hue_1,   g.Pmenu, ul)
+-- Group.new('LspDiagnosticsFloatingHint',           c.hue_4,   g.Pmenu, ul)
+-- Group.new('LspDiagnosticsSignError',              c.hue_5,   c.none,  no)
+-- Group.new('LspDiagnosticsSignWarning',            c.hue_6_2, c.none,  no)
+-- Group.new('LspDiagnosticsSignInformation',        c.hue_1,   c.none,  no)
+-- Group.new('LspDiagnosticsSignHint',               c.hue_4,   c.none,  no)
