@@ -62,13 +62,14 @@ Color.new('light_tan', '#ECE1C8')
 
 Group.new('Normal', c.almost_white, c.black, no)
 Group.new('NonText', c.dark_grey, c.black, no)
+Group.new('StatusLine', c.dark_grey, c.black, no)
 Group.new('LineNr', c.dark_grey, c.black, no)
 Group.new('Comment', c.middle_dark_grey, c.black, i)
 Group.new('String', c.middle_light_green, c.black, no)
 Group.new('Constant', c.middle_light_blue, c.black, no)
 Group.new('Type', c.light_green, c.black, no)
 Group.new('Keyword', c.light_green, c.black, no)
-Group.new('Repeat', c.middle_light_pink, c.black, no)
+Group.new('Repeat', g.keyword, nil, no)
 Group.new('Function', c.almost_white, c.black, b)
 Group.new('Todo', c.middle_light_pink, c.black, b)
 Group.new('Include', c.almost_white, c.black, b)
@@ -87,7 +88,7 @@ Group.new('TSConstant', g.Constant, g.Constant, g.Constant)
 Group.new('TSType', g.Type, g.Type, g.Type)
 Group.new('TSIdentifier', g.Function, g.Function, g.Function)
 Group.new('TSFunction', g.Function, g.Function, g.Function)
-Group.new('TSRepeat', c.middle_light_pink, c.black, no)
+Group.new('TSRepeat', g.keyword, nil, no)
 Group.new('TSInclude', g.include, nil, nil)
 Group.new('TSVariableBuiltin', c.light_grey, c.black, b)
 Group.new('TSField', g.Function, g.Function, g.Function)
@@ -96,13 +97,15 @@ Group.new('TSAttribute', g.Function, g.Function, g.Function)
 Group.new('TSNamespace', g.Function, g.Function, g.Function)
 
 --Compe/Float
-Group.new('Pmenu', c.light_grey, c.almost_black, no)
+Group.new('Pmenu', c.light_grey, c.black, no)
 Group.new('NormalFloat', g.Pmenu, g.Pmenu, g.Pmenu)
 Group.new('FloatBorder', g.Pmenu, g.Pmenu, g.Pmenu)
 Group.new('CompeDocumentation', g.Pmenu, g.Pmenu, g.Pmenu)
 Group.new('CompeDocumentationBorder', g.Pmenu, g.Pmenu, g.Pmenu)
 
 Group.new('SignColumn',   c.none, c.none, no)
+
+Group.new('VertSplit', c.almost_black, c.almost_black, no)
 
 -----------------------------
 --     LSP Highlighting    --
