@@ -2,3 +2,6 @@ Port of hemisu.vim to lua/neovim with some neovim-specific styling.
 
 Theme was originally made by Noah Frederick
 (https://noahfrederick.com/vim-color-scheme-hemisu/).
+
+Uses colorbuddy.nvim by TJ DeVries
+(https://github.com/tjdevries/colorbuddy.nvim)
